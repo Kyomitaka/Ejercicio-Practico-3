@@ -166,17 +166,4 @@ public class Bodeguero {
     public void setLectura5(String lectura5) {
         this.lectura5 = lectura5;
     }
-    
-     public void datos(){
-         lectura = JOptionPane.showInputDialog("Ingrese el codigo del producto: ");
-         codigo_producto = Integer.parseInt(lectura);
-         nombre_producto = JOptionPane.showInputDialog("Imgrese el nombre del producto: ");
-         nombre_empleado = JOptionPane.showInputDialog("Ingrese el nombre del empleado: ");
-         lectura1 = JOptionPane.showInputDialog("Ingrese la cedula del empleado: ");
-         cedula_empleado = Integer.parseInt(lectura1);
-         lectura2 = JOptionPane.showInputDialog("Ingrese la cantidad de productos que desea ingresar: ");
-         cantidad_producto = Integer.parseInt(lectura2);
-         lectura3 = JOptionPane.showInputDialog("Ingrese el precio del producto: ");
-         precio_producto = Integer.parseInt(lectura3);
-         }
-     }
+}
